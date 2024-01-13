@@ -32,3 +32,17 @@ Com isso, estou validando o meu schema.Yup, eliminando a necessidade do meu bloc
 Ao retirar o 'tryCatch', meu servidor quebra em caso de cadastro, por exemplo, de um email que já está no banco de dados.
 
 **^ Video 00:23:01 ^**
+
+**DICA : GIT - Padronização de commits**
+
+ - feat : Uma nova feature (recurso) que você está adicionando a uma aplicação específica.
+ - fix : A resolução de um bug.
+ - style : Recurso e atualizações relacionadas à estilização.
+ - refactor : Refatoração de uma seção específica da base de código.
+ - test : Tudo o que for relacionado a testes.
+ - docs : Tudo o que for relacionado à documentação.
+ - chore : Manutenção regular do código.
+
+(Você também pode usar emojis para representar os tipos de commit).
+
+!!Pesquisar sobre commitlint!!
