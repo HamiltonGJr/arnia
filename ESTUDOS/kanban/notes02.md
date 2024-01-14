@@ -46,3 +46,13 @@ Ao retirar o 'tryCatch', meu servidor quebra em caso de cadastro, por exemplo, d
 (Você também pode usar emojis para representar os tipos de commit).
 
 !!Pesquisar sobre commitlint!!
+
+### Iniciando a AUTETICAÇÃO:
+
+Aqui ja partimos com a criação de uma rota especifica para isso, em um arquivo seprado, pois estamos priorizando deixar movimentos que seja diretos com o usúario, tipo: criar, deletar, editar e e listar, apenas na rota de user, como autenticar é mais generico, fazemos em outra rota, podendo ter o logalty junto que ficaria mais separado as funções de cada um.
+
+**BCRYPT**: Tambem iremos utilizar a biblioteca 'bcrypt', para pegar a nossa senha e cryptografar ela, trazendo mais segurança ao nosso user. Utilizando a função 'hash', passando a senha e a quantidade de vezes que sera "embaralhada", numero padrão é 8, mas pode ser mais ou menos.
+
+**JWT**: Após, iremos utilizar a biblioteca jsonwebtoken, para criar um token usando para as demais requisições.
+
+**^ Video finalizado ^**

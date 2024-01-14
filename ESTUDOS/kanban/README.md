@@ -21,8 +21,8 @@ User
 
 ### Funcionalidades para o usuário não autenticado
 
-- Deve ser possível criar um usuário, passando: name, email e password
-- Deve ser possível fazer login, passando email e password, e recebendo um JWT para as demais requisições
+x Deve ser possível criar um usuário, passando: name, email e password
+X Deve ser possível fazer login, passando email e password, e recebendo um JWT para as demais requisições
 
 ### Funcionalidades para o usuário autenticado (Deve enviar o token JWT)
 
